@@ -5,7 +5,9 @@ public class OldMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		File dir = new File("//home//cshao//Documents//testFile");
+		String path=".";
+		
+		File dir = new File(path);
 		File file1 = new File(dir,"file2.txt");
 		if(!dir.exists())
 		{
